@@ -1,4 +1,3 @@
-import { useState } from "react";
 import Story from "./Story";
 import Comment from "./Comment";
 import StoryComment from "./StoryComment";
