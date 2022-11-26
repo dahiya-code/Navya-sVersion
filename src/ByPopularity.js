@@ -2,14 +2,14 @@ import Story from "./Story";
 import Comment from "./Comment";
 import StoryComment from "./StoryComment";
 const ByPopularity = ({tags, dateRange}) => {
-    let url='http://hn.algolia.com/api/v1/search?tags=';
+    let url='https://hn.algolia.com/api/v1/search?tags=';
     if(dateRange!=='all'){
         let time;
         if(dateRange==='last24h')       time=86400;
         else if(dateRange==='pastWeek') time=604800;
         else if(dateRange==='pastMonth')time=2628000;
         else if(dateRange==='pastYear') time=31535965;
-        url='http://hn.algolia.com/api/v1/search?numericFilters=created_at_i>'+time+'tags=';
+        url='https://hn.algolia.com/api/v1/search?numericFilters=created_at_i>'+time+'tags=';
     }
     return ( 
         <div>
