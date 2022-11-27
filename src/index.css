@@ -44,26 +44,6 @@ a{
   border-bottom: 1px solid rgb(135, 135, 135);
 }
 
-.blog-preview h2 {
-  font-size: 20px;
-  margin-bottom: 8px;
-}
-
-/* blog details page */
-.blog-details h2 {
-  font-size: 20px;
-  margin-bottom: 10px;
-}
-.blog-details div {
-  margin: 20px 0;
-}
-.blog-details button{
-  color: #fff;
-  border: 0;
-  padding: 8px;
-  border-radius: 8px;
-  cursor: pointer;
-}
 
 /* create new blog form */
 .create {
